@@ -19,6 +19,9 @@ body{
 	font-size: 13px;
 }
 
+.site-brand {
+  text-decoration: none;
+}
 
 .site-brand:hover{
 	color: pink;
@@ -29,6 +32,10 @@ li {
 	list-style-type: none; /* Remove bullets */
 	padding: 10px 0px 10px 0px;
 	text-decoration-color: black;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 ul li a:hover{
@@ -59,14 +66,19 @@ ul li a:hover{
  	transform: scale(1.1);
  	margin: 50px 50px 50px 50px;
  	opacity: 1;
-    transition: .5s ease;
-    backface-visibility: hidden;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .overlay {
 	display: flex;
 	align-self: column;
 	/*overflow: hidden;*/
+}
+
+.overlay a{
+    text-decoration: none;
+
 }
 
 .img-responsive:hover {
